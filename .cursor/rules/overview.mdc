@@ -1,0 +1,161 @@
+# [PROJECT NAME] - Project Overview
+
+## Short Description
+
+The **[PROJECT NAME]** is a [TYPE OF APPLICATION] designed to [MAIN PURPOSE/GOAL]. [BRIEF DESCRIPTION OF WHAT THE PROJECT DOES AND WHO IT'S FOR].
+
+## Tech Stack
+
+### Core Technologies
+
+- **[FRONTEND FRAMEWORK]** - [DESCRIPTION OF FRONTEND FRAMEWORK]
+- **[PROGRAMMING LANGUAGE]** - [DESCRIPTION OF LANGUAGE]
+- **[BUILD TOOL/FRAMEWORK]** - [DESCRIPTION OF BUILD TOOL]
+- **[STYLING FRAMEWORK]** - [DESCRIPTION OF CSS FRAMEWORK]
+- **[UI COMPONENT LIBRARY]** - [DESCRIPTION OF UI LIBRARY]
+
+### State Management & Data Handling
+
+- **[STATE MANAGEMENT]** - [DESCRIPTION OF STATE MANAGEMENT]
+- **[FORM HANDLING]** - [DESCRIPTION OF FORM LIBRARY]
+- **[VALIDATION]** - [DESCRIPTION OF VALIDATION LIBRARY]
+
+### [CATEGORY NAME] - Customize based on your project needs
+
+- **[LIBRARY 1]** - [DESCRIPTION OF LIBRARY 1]
+- **[LIBRARY 2]** - [DESCRIPTION OF LIBRARY 2]
+- **[LIBRARY 3]** - [DESCRIPTION OF LIBRARY 3]
+
+### Testing & Development
+
+- **[TESTING FRAMEWORK]** - [DESCRIPTION OF TESTING FRAMEWORK]
+- **[STORAGE SOLUTION]** - [DESCRIPTION OF STORAGE]
+
+## Key Functionalities
+
+### 1. [CORE FEATURE 1] - Replace with your main feature
+
+- [FEATURE 1.1] - [DESCRIPTION]
+- [FEATURE 1.2] - [DESCRIPTION]
+- [FEATURE 1.3] - [DESCRIPTION]
+- [FEATURE 1.4] - [DESCRIPTION]
+- [FEATURE 1.5] - [DESCRIPTION]
+
+### 2. [CORE FEATURE 2] - Replace with your second main feature
+
+- [FEATURE 2.1] - [DESCRIPTION]
+- [FEATURE 2.2] - [DESCRIPTION]
+- [FEATURE 2.3] - [DESCRIPTION]
+- [FEATURE 2.4] - [DESCRIPTION]
+
+### 3. [CORE FEATURE 3] - Replace with your third main feature
+
+- [FEATURE 3.1] - [DESCRIPTION]
+- [FEATURE 3.2] - [DESCRIPTION]
+- [FEATURE 3.3] - [DESCRIPTION]
+- [FEATURE 3.4] - [DESCRIPTION]
+
+### 4. [CORE FEATURE 4] - Replace with your fourth main feature
+
+- [FEATURE 4.1] - [DESCRIPTION]
+- [FEATURE 4.2] - [DESCRIPTION]
+- [FEATURE 4.3] - [DESCRIPTION]
+- [FEATURE 4.4] - [DESCRIPTION]
+
+## Basic Workflow
+
+### 1. [MAIN PROCESS] - Replace with your primary user workflow
+
+1. [STEP 1] - [DESCRIPTION]
+2. [STEP 2] - [DESCRIPTION]
+3. [STEP 3] - [DESCRIPTION]
+4. [STEP 4] - [DESCRIPTION]
+5. [STEP 5] - [DESCRIPTION]
+6. [STEP 6] - [DESCRIPTION]
+
+### 2. [SECONDARY PROCESS] - Replace with your secondary workflow
+
+1. **[PROCESS STEP 1]** - [DESCRIPTION]
+2. **[PROCESS STEP 2]** - [DESCRIPTION]
+3. **[PROCESS STEP 3]** - [DESCRIPTION]
+4. **[PROCESS STEP 4]** - [DESCRIPTION]
+5. **[PROCESS STEP 5]** - [DESCRIPTION]
+
+## Intermediate Workflow
+
+### 1. [ADVANCED FEATURE 1] - Replace with advanced functionality
+
+- **[ADVANCED FEATURE 1.1]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 1.2]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 1.3]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 1.4]**: [DESCRIPTION]
+
+### 2. [ADVANCED FEATURE 2] - Replace with another advanced feature
+
+- **[ADVANCED FEATURE 2.1]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 2.2]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 2.3]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 2.4]**: [DESCRIPTION]
+
+### 3. [ADVANCED FEATURE 3] - Replace with third advanced feature
+
+- **[ADVANCED FEATURE 3.1]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 3.2]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 3.3]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 3.4]**: [DESCRIPTION]
+
+### 4. [ADVANCED FEATURE 4] - Replace with fourth advanced feature
+
+- **[ADVANCED FEATURE 4.1]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 4.2]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 4.3]**: [DESCRIPTION]
+- **[ADVANCED FEATURE 4.4]**: [DESCRIPTION]
+
+## Key Files & Structure
+
+### Entry Points
+
+Here we define the main files of the project, which form the fundamental skeleton of the application. It is recommended to start by reviewing these files, as they provide a clear overview of the basic structure and core functionality of the system.
+
+### Core Logic
+
+In this section, all files that comprise the fundamental logic—the brain of the project—are defined.
+
+### Configuration
+
+In this section, all configuration files used in the project are defined.
+
+## Architecture Overview
+
+The [PROJECT TYPE] follows a modular architecture with clear separation between:
+
+- **[LAYER 1]**: [DESCRIPTION OF LAYER 1]
+- **[LAYER 2]**: [DESCRIPTION OF LAYER 2]
+- **[LAYER 3]**: [DESCRIPTION OF LAYER 3]
+- **[LAYER 4]**: [DESCRIPTION OF LAYER 4]
+
+This structure makes the codebase maintainable and extensible for future [PROJECT DOMAIN] needs.
+
+---
+
+## Template Usage Instructions
+
+### Areas to Customize:
+
+1. **Project Name**: Replace `[PROJECT NAME]` with your actual project name
+2. **Short Description**: Update the description to match your project's purpose
+3. **Tech Stack**: Replace all placeholder technologies with your actual tech stack
+4. **Key Functionalities**: Replace the 4 core features with your project's main features
+5. **Workflows**: Update both basic and intermediate workflows to match your project's processes
+6. **File Structure**: Update file paths and descriptions to match your actual project structure
+7. **Architecture**: Modify the architecture description to fit your project's design
+
+### Tips for Customization:
+
+- Keep the structure but replace content with your specific project details
+- Maintain the same level of detail for each section
+- Update all placeholder text marked with `[BRACKETS]`
+- Ensure file paths match your actual project structure
+- Add or remove sections as needed for your specific project type
+
+This structure makes the codebase maintainable and extensible for future accessibility testing needs.

@@ -1,0 +1,37 @@
+---
+description: These rules are useful for refactoring and documentation tasks.
+alwaysApply: false
+---
+
+# Refactoring and Documentation Rules
+
+## General Principles
+
+- **Preserve Original Code:** When extracting a function from a component or file into its own file, the code **must not** be altered in any way.
+- **JSDoc Awareness:** Always check for existing JSDoc associated with the code before performing any refactor to gain full context about its functionality.
+
+## Function Extraction
+
+- **No Code Modifications:** When extracting a function, do not change the implementation or logic.
+- **JSDoc Preservation:** If the function has an associated JSDoc, extract the **entire JSDoc block** along with the function, without modifications.
+- **Linter Issues:** If the extracted code has linter issues, **do not fix them** as part of the extraction process. Only mention them in comments or documentation.
+
+## Documentation
+
+- **Generate Without Altering Code:** When generating or updating JSDoc, do not alter the code implementation.
+- **Mention Linter Issues Only:** If the documented block has linter issues, list them in the documentation or comments, but do not resolve them in the same commit.
+- **Descriptive Naming:** Use descriptive names for functions and hooks based on their functionality. Names should make the purpose of the code clear.
+
+## Custom Hooks
+
+- **Meaningful Names:** When creating a custom hook (either from scratch or by extracting existing hooks), name it based on the main purpose of the logic it contains.
+- **Documentation Requirement:** Document the hook with JSDoc if its behavior, parameters, or return values are non-trivial or not self-explanatory.
+
+## Additional Recommended Rules
+
+- **Context Retention:** Preserve relevant inline comments during refactoring; do not remove developer notes unless they are clearly obsolete. If you are applying JSDoc documentation to a block of code that has comments, try to improve those comments without losing their purpose.
+- **Path Consistency:** When moving or extracting files, ensure consistent file naming conventions (`snake_case.js` for public/scripts, `script-name.js` for /scripts, `useHookName.ts` for hooks, `ComponentName.jsx` for components).
+- **Import Order:** Maintain existing import order when adding new imports during extraction.
+- **Avoid Side Effects:** Ensure extracted code does not inadvertently change application behavior due to altered scope, context, or imports.
+- **Update References:** After extraction, update all references to the new location in a single, atomic change.
+- **Test Integrity:** Ensure existing tests that rely on the extracted code still pass; if tests appears to fail due to relocation, update paths without altering test logic.
