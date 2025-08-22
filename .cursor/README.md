@@ -25,13 +25,6 @@ Feel free to modify and adjust them according to your style and needs.
 
 ---
 
-## 🤝 Contributions
-
-This repository is public with the intention of sharing ideas and learning together.  
-If you have suggestions, improvements, or examples of how you adapt these rules to other tools, contributions via _issues_ or _pull requests_ are more than welcome!
-
----
-
 ## 📝 Note
 
 The rules presented here reflect **my personal way** of configuring AI.  
